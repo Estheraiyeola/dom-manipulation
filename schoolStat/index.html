@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Stat</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" ></script>
+</head>
+<body>
+    <h1>School Stat- A Simple Dashboard For a Tech School</h1>
+
+    <div class="table">
+        <table id="first-table">
+            <thead id="first-table-head">
+                <tr>
+                    <th>Instructor</th>
+                    <th>No of Courses</th>
+                </tr>
+            </thead>
+            <tbody id="first-table-body">
+                
+            </tbody>
+        </table>
+        <tr>
+            <td><input title="name" type="text" id="name"></td>
+            <td><input title="courses" type="number" id="course"></td>
+        </tr>
+        <button title="add" type="button" onclick="addInstructor()">Add</button>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+
+    <div class="table">
+        <table id="second-table">
+            <thead>
+                <tr>
+                    <th>Tracks</th>
+                    <th>No of Student</th>
+                </tr>
+            </thead>
+            <tbody id="second-table-body">
+
+            </tbody>
+        </table>
+        <tr>
+            <td><input title="name" type="text" id="tracks"></td>
+            <td><input title="student-in-tracks" type="number" id="student-in-tracks"></td>
+        </tr>
+        <button title="add" type="button" onclick="addTracks()">Add</button>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+
+    <div class="table">
+        <table id="third-table">
+            <thead>
+                <tr>
+                    <th>Gender</th>
+                    <th>No of Student</th>
+                </tr>
+            </thead>
+            <tbody id="third-table-body">
+
+            </tbody>
+        </table>
+        <tr>
+            <td><input title="gender" type="text" id="gender"></td>
+            <td><input title="students" type="number" id="students-in-gender"></td>
+        </tr>
+        <button title="add" type="button" onclick="addGender()">Add</button>
+    </div>
+    
+
+</body>
+</html>
