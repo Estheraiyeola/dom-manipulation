@@ -1,0 +1,25 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 390px;
+    height: 300px;
+
+}
+h3{
+    margin-bottom: 10px;
+}
+label{
+    margin-bottom: 10px;
+}
+button{
+    padding: 10px 20px;
+    width: 200px;
+    cursor: pointer;
+    align-self: center;
+}
+#acc-name{
+    display: none;
+    margin: 0px;
+    margin-bottom: 15px;
+}
